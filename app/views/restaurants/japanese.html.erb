@@ -1,0 +1,10 @@
+<div>
+  <h1>Japanese Restaurants</h1>
+  <% @restaurants.each do |restaurant| %>
+    <%= render restaurant %>
+    <p>
+      <%= link_to "Japanse Restaurant", restaurant %>
+    </p>
+
+  <% end %>
+</div>
